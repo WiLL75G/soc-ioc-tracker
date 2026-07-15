@@ -1,8 +1,8 @@
-# 📊 SOC IOC Tracker — Real Lab Evidence
+# 📊 SOC IOC Tracker Real Lab Evidence
 
 > **Skill Focus:** Excel for SOC Analysts — VLOOKUP, COUNTIF, Conditional Formatting, Pivot Summaries
 > **Author:** William Gokah | [@WilliamInCyber](https://linkedin.com/in/WilliamInCyber) | [github.com/WiLL75G](https://github.com/WiLL75G)
-> **Portfolio:** Detection Engineering Home Lab — Real Evidence Only
+> **Portfolio:** Detection Engineering Home Lab Real Evidence Only
 
 ---
 
@@ -10,7 +10,7 @@
 
 Every row in this tracker is a real IOC or detection event from a lab I built and ran myself. No synthetic data. No copy-paste tutorials. Each entry links back to a specific tool, rule, alert, or artifact from my home lab across nine detection engineering projects.
 
-This tracker demonstrates the spreadsheet skills a SOC analyst uses daily alongside SIEM platforms — VLOOKUP for IP correlation against threat intel, COUNTIF for pivot-style severity and status breakdowns, and conditional formatting for fast visual triage.
+This tracker demonstrates the spreadsheet skills a SOC analyst uses daily alongside SIEM platforms VLOOKUP for IP correlation against threat intel, COUNTIF for pivot-style severity and status breakdowns, and conditional formatting for fast visual triage.
 
 ---
 
@@ -48,7 +48,7 @@ Kali attacker at `192.168.64.15` launched an SSH brute-force against the Ubuntu 
 | Target | Ubuntu Agent (Wazuh-monitored) |
 | Port | 22 / SSH |
 | Rules Fired | 5760, 40112 (Level-12 Compromise) |
-| MITRE | T1110 — Brute Force, T1110.001 — Password Guessing |
+| MITRE | T1110 — Brute Force, T1110.001 Password Guessing |
 | Status | CLOSED |
 
 ---
