@@ -74,7 +74,7 @@ Four PCAP scenarios analysed end-to-end in Wireshark.
 
 | Scenario | Finding | MITRE |
 |---|---|---|
-| TCP SYN Port Scan | Half-open connections, no ACK completion — Nmap stealth scan | T1046 |
+| TCP SYN Port Scan | Half-open connections, no ACK completion Nmap stealth scan | T1046 |
 | SSH Brute Force | 200+ rapid SYN/RST cycles to port 22 | T1110 |
 | FTP Cleartext Credentials | Username and password captured via Follow TCP Stream | T1552.001 |
 | DNS Exfiltration | Encoded data in DNS TXT record subdomain labels | T1048.003 |
