@@ -1,4 +1,4 @@
-# 📊 SOC IOC Tracker Real Lab Evidence
+# SOC IOC Tracker Real Lab Evidence
 
 > **Skill Focus:** Excel for SOC Analysts VLOOKUP, COUNTIF, Conditional Formatting, Pivot Summaries
 > **Author:** William Gokah | [@WilliamInCyber](https://linkedin.com/in/WilliamInCyber) | [github.com/WiLL75G](https://github.com/WiLL75G)
@@ -27,7 +27,7 @@ This tracker demonstrates the spreadsheet skills a SOC analyst uses daily alongs
 
 ---
 
-## IOC Log — Sheet 1
+## IOC Log Sheet 1
 
 Every IOC is logged with 18 fields: timestamp, lab/project, incident ID, IOC type, IOC value, source IP, destination IP, port, protocol, MITRE tactic, MITRE technique ID, tool/SIEM, rule/SID/EID, severity, status, false positive flag, and evidence notes.
 
@@ -48,7 +48,7 @@ Kali attacker at `192.168.64.15` launched an SSH brute-force against the Ubuntu 
 | Target | Ubuntu Agent (Wazuh-monitored) |
 | Port | 22 / SSH |
 | Rules Fired | 5760, 40112 (Level-12 Compromise) |
-| MITRE | T1110 — Brute Force, T1110.001 Password Guessing |
+| MITRE | T1110 Brute Force, T1110.001 Password Guessing |
 | Status | CLOSED |
 
 ---
@@ -81,7 +81,7 @@ Four PCAP scenarios analysed end-to-end in Wireshark.
 
 ---
 
-### PowerShell Endpoint Forensics — JAMES-VM
+### PowerShell Endpoint Forensics JAMES-VM
 **IOCs:** 2 | **Severity:** HIGH | **MITRE:** T1059.001
 
 Sysmon deployed on JAMES-VM. Script block logging and process creation events captured a base64-encoded PowerShell payload.
@@ -91,7 +91,7 @@ Sysmon deployed on JAMES-VM. Script block logging and process creation events ca
 | Process Creation | Sysmon EID 1 | powershell.exe launched with -EncodedCommand flag |
 | Script Block Logging | Sysmon EID 4104 | Base64 payload captured; decoded via [System.Text.Encoding]::Unicode.GetString |
 
-MITRE: T1059.001 — PowerShell
+MITRE: T1059.001 PowerShell
 
 ---
 
@@ -166,7 +166,7 @@ SecurityEvent
 
 ---
 
-## Pivot Summary — Sheet 2
+## Pivot Summary Sheet 2
 
 ![Pivot Summary](assets/pivot-summary.png)
 
@@ -174,7 +174,7 @@ COUNTIF formulas pull live from the IOC Log. Severity breakdown, status breakdow
 
 ---
 
-## IP Correlation — Sheet 3
+## IP Correlation Sheet 3
 
 ![IP Correlation](assets/ip-correlation.png)
 
