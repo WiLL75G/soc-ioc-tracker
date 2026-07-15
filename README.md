@@ -1,6 +1,6 @@
 # 📊 SOC IOC Tracker Real Lab Evidence
 
-> **Skill Focus:** Excel for SOC Analysts — VLOOKUP, COUNTIF, Conditional Formatting, Pivot Summaries
+> **Skill Focus:** Excel for SOC Analysts VLOOKUP, COUNTIF, Conditional Formatting, Pivot Summaries
 > **Author:** William Gokah | [@WilliamInCyber](https://linkedin.com/in/WilliamInCyber) | [github.com/WiLL75G](https://github.com/WiLL75G)
 > **Portfolio:** Detection Engineering Home Lab Real Evidence Only
 
@@ -178,7 +178,7 @@ COUNTIF formulas pull live from the IOC Log. Severity breakdown, status breakdow
 
 ![IP Correlation](assets/ip-correlation.png)
 
-VLOOKUP checks observed IPs from the log against a real threat intelligence reference table. Key confirmed match: `185.220.101.34` — TOR-affiliated, confirmed C2 in the soc-ai-era-detection-lab, 1,877 records exfiltrated.
+VLOOKUP checks observed IPs from the log against a real threat intelligence reference table. Key confirmed match: `185.220.101.34` TOR-affiliated, confirmed C2 in the soc-ai-era-detection-lab, 1,877 records exfiltrated.
 
 Formula pattern used:
 ```
@@ -229,7 +229,7 @@ soc-ioc-tracker/
 
 ## Analyst Insight
 
-Spreadsheet skills complement SIEM tooling — not replace it. Every IOC in this tracker was first detected inside Wazuh, Suricata, Splunk, Sentinel, or Wireshark. The Excel layer adds a second analytical surface: VLOOKUP for cross-referencing threat intel against observed IPs, COUNTIF for shift-start situational awareness without opening a SIEM, and conditional formatting for the kind of at-a-glance severity view you need when triaging a backlog of alerts. These are skills that show up in real Tier 1 and Tier 2 SOC workflows every day.
+Spreadsheet skills complement SIEM tooling not replace it. Every IOC in this tracker was first detected inside Wazuh, Suricata, Splunk, Sentinel, or Wireshark. The Excel layer adds a second analytical surface: VLOOKUP for cross-referencing threat intel against observed IPs, COUNTIF for shift-start situational awareness without opening a SIEM, and conditional formatting for the kind of at-a-glance severity view you need when triaging a backlog of alerts. These are skills that show up in real Tier 1 and Tier 2 SOC workflows every day.
 
 ---
 
